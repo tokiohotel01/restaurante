@@ -1,0 +1,165 @@
+
+body, h1, h2, p, ul, li, form, label, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fff; 
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(to right, #c82a54, #800080, #024a86, #02ac66, #e7d40a, #e36b2c, #ef280f); 
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+}
+
+#inicio {
+    background-color: #c82a54;
+    text-align: center;
+}
+
+#inicio h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+#inicio p {
+    font-size: 18px;
+    color: #fff;
+}
+
+#inicio img {
+    max-width: 100%;
+    height: auto;
+}
+
+#menu {
+    background-color: 
+    #800080; 
+   text-align: center;
+   justify-content: center;
+}
+
+#menu h2 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#reservas {
+    background-color:  #024a86;
+    text-align: center;
+}
+
+#reservas h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+#reservas p {
+    font-size: 18px;
+    color: #fff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color:  #02ac66 ;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#contacto {
+    background-color:  #e7d40a ; 
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#contacto h2 {
+    font-size: 28px;
+}
+
+address p {
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #e36b2c ; 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+a {
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ef280f; 
+}
+
+#logo {
+align-items: left;
+justify-content: center;
+max-width: 30%;
+}

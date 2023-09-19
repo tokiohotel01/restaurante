@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Rainbow</title>
+    <link rel="stylesheet" href="style/styles.css"> 
+</head>
+<body>
+    <header>
+
+        <img src="img/Picsart_23-09-18_15-13-13-420.png" id="logo">
+        <h1>Restaurante Rainbow</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a Restaurante Rainbow</h2>
+        <p>En 'Hello Rainbow', celebramos la magia de la infancia a través de una experiencia gastronómica única. Nuestro restaurante ofrece platos coloridos y deliciosos que hacen sonreír a los más pequeños y deleitan a los adultos. Con una temática de colores del arcoíris, nuestro acogedor lugar es el escenario perfecto para que las familias disfruten de momentos de alegría, comida deliciosa y diversión inolvidable. ¡Únete a nosotros y descubre un mundo de sabores y sonrisas para toda la familia!.</p>
+        
+    </section>
+
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <p>Nuestro menú está cuidadosamente diseñado para satisfacer a los paladares más exigentes y a los más selectivos. </p>
+        <p>Ofrecemos una amplia variedad de platos deliciosos y saludables, desde mini hamburguesas y pizza hasta opciones vegetarianas y sin gluten.</p>
+        <p>¡Y no te olvides de nuestros postres mágicos que harán que los ojos de los niños se iluminen!</p>
+        
+    </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <p>En el Restaurante Rainbow, no solo celebramos los cumpleaños con fiestas llenas de sorpresas y actividades especiales, sino que también organizamos eventos temáticos y talleres para que los niños se diviertan y aprendan mientras disfrutan de la comida.</p>
+        <p>Reserva una mesa para una experiencia gastronómica excepcional.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+            <button type="submit" id="botonReservas">Enviar Reserva</button>
+
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estamos aquí para responder a tus preguntas y comentarios.</p>
+        <address>
+            <p>Dirección: Avenida Siempre Viva 742</p>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Email: hellorainbow@gmail.com</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Restaurante Rainbow. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+
+        function realizarReserva() {
+            alert("¡Tu reserva ha sido realizada con éxito!")}
+        document.getElementById("botonReservas").addEventListener("click", realizarReserva);
+    </script>
+</body>
+</html>

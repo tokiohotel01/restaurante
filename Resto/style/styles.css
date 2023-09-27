@@ -163,3 +163,46 @@ align-items: left;
 justify-content: center;
 max-width: 30%;
 }
+
+.imgMenu {
+  max-width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+#menu-Naru {
+    background-color: #850073f1;
+}
+
+.titulo-menu1{
+    flex-direction: column;
+}
+
+#menu-Pika {
+    background-color: #850059e7;
+}
+#menu-Hora-de {
+    background-color: #850059e7;
+}
+
+
+.p-menu {
+    padding: 5px;
+}
+
+.imgMenu1{
+    max-width: 25%;
+    justify-content: center;
+}

@@ -109,9 +109,9 @@ form label {
     margin-bottom: 5px;
 }
 
-form input[type="text"],
+form input[type="time"],
 form input[type="date"],
-form input[type="time"] {
+form input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -201,7 +201,11 @@ max-width: 30%;
 #menu-Hora-de {
     background-color: #850059e7;
 }
-
+#eventos{
+    background-color: #02ac66;
+    text-align: center;
+    justify-content: center;
+}
 
 .p-menu {
     padding: 5px;

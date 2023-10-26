@@ -1,3 +1,8 @@
+@font-face {
+    font-family: crayon;
+    src: url(../fonts/crayon\ kids.ttf);
+}
+
 
 body, h1, h2, p, ul, li, form, label, button {
     margin: 0;
@@ -5,7 +10,7 @@ body, h1, h2, p, ul, li, form, label, button {
 }
 
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'crayon', cursive, sans-serif;
     background-color: #fff; 
     color: #fff;
     line-height: 1.6;
@@ -104,9 +109,9 @@ form label {
     margin-bottom: 5px;
 }
 
-form input[type="text"],
+form input[type="time"],
 form input[type="date"],
-form input[type="time"] {
+form input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -197,7 +202,11 @@ max-width: 30%;
 #menu-Hora-de {
     background-color: #850059e7;  
 }
-
+#eventos{
+    background-color: #02ac66;
+    text-align: center;
+    justify-content: center;
+}
 
 .p-menu {
     padding: 5px;

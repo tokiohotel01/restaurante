@@ -180,6 +180,7 @@ max-width: 30%;
     flex-direction: row;
     justify-content: space-between;
     padding: 1%;
+    border: solid black 1px;
 }
 
 #menu-Naru {
@@ -194,7 +195,7 @@ max-width: 30%;
     background-color: #850059e7;
 }
 #menu-Hora-de {
-    background-color: #850059e7;
+    background-color: #850059e7;  
 }
 
 
@@ -205,4 +206,21 @@ max-width: 30%;
 .imgMenu1{
     max-width: 25%;
     justify-content: center;
+}
+
+.textoMenu {
+    flex-direction: column;
+    text-align: left;
+    padding: 5px;
+}
+
+.precio {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.disclaimer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: end;
+    font-size: 8px;
+    text-align: justify;
 }

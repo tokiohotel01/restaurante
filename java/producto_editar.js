@@ -10,7 +10,7 @@ nombre:"",
 imagen:"",
 stock:0,
 precio:0,
-url:'http://localhost:5000/productos',
+url:'http://localhost:5000/productos/'+id,
 // si el backend esta corriendo local usar localhost 5000(si no lo subieron a pythonanywhere)
 //url:'http://mcerda.pythonanywhere.com/productos', // si ya lo subieron a pythonanywhere
 //url:'http://mcerda.pythonanywhere.com/productos/'+id,
@@ -34,7 +34,7 @@ console.error(err);
 this.error=true
 })
 },
-modificar(producto) {
+modificar() {
 let producto = {
 nombre:this.nombre,
 precio: this.precio,

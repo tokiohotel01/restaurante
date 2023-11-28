@@ -16,7 +16,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
 <div class="container" id="app">
 <form style="background-color: aliceblue;margin:10px auto ; width: 400px; padding: 20px;">
 <h2>Editar Menu </h2>
-<p>Precio:{{precio}}</p>
+<p>Nombre Menu :{{ nombre}}</p>
 <div class="mb-3">
 <label for="id">Id </label>
 <input type="number" name="id" id="id" disabled v-model="id" >
@@ -27,7 +27,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
 </div>
 <div class="mb-3">
 <label for="precio">Precio</label>
-<input type="number" name="precio"(producto.precio) id="precio" v-model="precio">
+<input type="number" name="precio" id="precio" v-model="precio">
 </div>
 <div class="mb-3">
 <label for="stock">Stock</label>
